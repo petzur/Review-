@@ -1,0 +1,14 @@
+Test Blatt_und_Ausgaben schlägt mit NullpointerException fehlt.
+Abgaben werden nicht ordentlich verteilt.
+Es sollte auch die Funktionalität im Kontext getestet werden.
+Z.b. ob die Verteilung ordentlich arbeitet wenn es drei Korrektoren, 6 Abgaben und ein Blatt gibt.
+Das ist bei dir nämlich leider nicht der Fall. 
+Teste außerdem ob das Ganze auch in Zusammenhand mit Überhang und Nachreichungen funktioniert. 
+
+Außerdem sieht das Prinzip des testgetriebenen Entwickelns vor, dass erst ein Test der fehlschlägt geschrieben wird und dann der Code der den Test zum laufen bringt. 
+Darauf folgt eine optionale refactoring Phase bevor man wieder mit einem fehlschlagenden Test fortfährt. Dieses Prinzip hast du nicht eingehalten.
+
+-51 Punkte
+
+-> 49/100 Punkte. Nicht bestanden.
+Nachreichen bis 7.7. 18uhr. Bitte per Mail bescheid sagen, wenn das Projekt fertig ist. (satim100@hhu.de)
